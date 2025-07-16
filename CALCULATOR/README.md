@@ -23,6 +23,6 @@ A sleek and responsive calculator built using **HTML**, **CSS**, and **Vanilla J
 To run this project locally:
 
 ```bash
-git clone https://github.com/your-username/calculator-app.git
-cd calculator-app
-Open index.html
+git clone https://github.com/Roopanshi-Marwaha/JS-PROJECTS.git
+cd JS-PROJECTS/CALCULATOR
+start index.html    # (on Windows)
