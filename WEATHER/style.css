@@ -1,0 +1,56 @@
+body {
+  transition: background 0.5s ease-in-out;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#weatherCard {
+  background-color: #ffffffcc;
+  backdrop-filter: blur(6px);
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+#placeholder {
+  max-width: 600px;
+  margin: 60px auto;
+  opacity: 0.85;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.sunny {
+  background: linear-gradient(to top, #fceabb, #f8b500);
+}
+
+.cloudy {
+  background: linear-gradient(to top, #d7d2cc, #304352);
+}
+
+.rainy {
+  background: linear-gradient(to top, #cfd9df, #e2ebf0);
+}
+
+.thunderstorm {
+  background: linear-gradient(to top, #232526, #414345);
+}
+
+.snow {
+  background: linear-gradient(to top, #e0eafc, #cfdef3);
+}
+
+.clear {
+  background: linear-gradient(to top, #2980b9, #6dd5fa, #ffffff);
+}
+
+.default-bg {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
