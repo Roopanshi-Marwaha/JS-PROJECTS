@@ -1,6 +1,6 @@
 # 🌤️ WeatherNow — Weather App using wttr.in API
 
-A sleek, minimal, GenZ-coded weather app built with **HTML, CSS (Bootstrap), and JavaScript** that shows live weather updates for any city 🌍.
+A sleek, minimal, weather app built with **HTML, CSS (Bootstrap), and JavaScript** that shows live weather updates for any city 🌍.
 
 ## 🔍 Features
 
